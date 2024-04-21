@@ -1,0 +1,108 @@
+.bg_color {
+    background: rgb(220, 234, 245);
+}
+
+.home_text_content {
+    padding-top: 117px;
+    padding-bottom: 147px;
+}
+
+.home_text_content h1 {
+    color: rgb(29, 52, 68);
+    font-family: "Poppins";
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -3%;
+    text-align: left;
+    max-width: 776px;
+    margin-bottom: 12px;
+}
+
+.home_text_content p {
+    color: rgb(91, 91, 91);
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 571px;
+}
+
+.btn_home {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 32px;
+    margin-bottom: 56px;
+}
+
+.btn_home button {
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 106.5%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 27px;
+    background: rgb(245, 138, 7);
+    border: none;
+    padding: 18px 32px;
+}
+
+.btn_home p {
+    color: rgb(29, 52, 68);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 106.5%;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.home_p_text {
+    color: rgba(57, 65, 73, 0.5);
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-top: 18px;
+}
+
+.home_wrapper_flex {
+    display: flex;
+    gap: 30px;
+
+}
+
+.home_img_container {
+    margin-top: 200px;
+    position: relative;
+}
+
+.rektangle {
+    position: absolute;
+    background: rgb(245, 138, 7);
+    opacity: 0.75;
+    position: absolute;
+    width: 160px;
+    height: 370px;
+    left: 158px;
+    right: 287px;
+    top: 230px;
+    bottom: -142px;
+    border-radius: 6px 6px 0 0;
+
+}

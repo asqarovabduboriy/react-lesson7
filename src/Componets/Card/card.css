@@ -1,0 +1,77 @@
+.card_title h1 {
+    color: rgb(13, 19, 23);
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -3%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.card_title {
+    padding-top: 96px;
+}
+
+.card {
+    width: 400px;
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(255, 255, 255);
+    margin-top: -10px;
+    padding: 32px;
+}
+
+.card h3{
+    color: rgb(13, 19, 23);
+font-family: "Poppins";
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: -3%;
+text-align: left;
+max-width: 336px;
+}
+
+.card p{
+    color: rgb(91, 91, 91);
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+max-width: 336px;
+margin-top: 16px;
+}
+
+.btn_card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.btn_card button {
+    color: rgb(245, 138, 7);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 106.5%;
+    letter-spacing: 0px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+}
+
+.rigth_icon{
+    color: rgb(245, 138, 7);
+    font-size: 22px;
+}
+
+.card_flex{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 64px;
+    padding-bottom: 96px;
+}

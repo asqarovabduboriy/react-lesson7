@@ -1,0 +1,131 @@
+.text_content h1 {
+    color: rgb(29, 52, 68);
+    font-family: "Poppins";
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -3%;
+    text-align: left;
+    max-width: 618px;
+}
+
+.text_content p {
+    color: rgb(91, 91, 91);
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 510px;
+    margin-top: 24px;
+}
+
+.text_content button {
+    margin-top: 32px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 106.5%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 27px;
+    background: rgb(245, 138, 7);
+    padding: 18px 32px;
+    border: none;
+
+}
+
+.about_flex_div {
+    display: flex;
+    align-items: center;
+    margin-top: 108px;
+}
+
+.img_wrapper_about {
+    position: relative;
+}
+
+.rektangle_about {
+    position: absolute;
+    width: 180px;
+    height: 650px;
+    left: 0;
+    top: -0px;
+    bottom: -777px;
+    transform: rotate(-180.00deg);
+    border-radius: 0px 19px 20px 0px;
+    background: rgb(245, 138, 7);
+    opacity: 0.75;
+}
+
+.text_content_two h4 {
+    color: rgb(13, 19, 23);
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -3%;
+    text-align: left;
+    max-width: 587px;
+}
+
+.text_content_two p {
+    max-width: 620px;
+    color: rgb(29, 52, 68);
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text_content_two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin-bottom: 64px;
+}
+
+.text_cards h4 {
+    color: rgb(245, 138, 7);
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.text_cards b {
+    color: rgb(13, 19, 23);
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 106.5%;
+    letter-spacing: -3%;
+    text-align: left;
+
+}
+
+.text_cards p {
+    margin-top: 16px;
+    color: rgb(91, 91, 91);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 264px;
+}
+
+.text_cards_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 108px;
+}
