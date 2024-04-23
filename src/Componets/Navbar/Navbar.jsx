@@ -1,12 +1,8 @@
 import React from 'react';
 import "./Navbar.css";
-import { Route, Routes, Link } from 'react-router-dom';
-import Home from '../Page/Home/Home';
-import Blog from '../Page/Blog/Blog';
-import About from '../Page/About/About';
+import {  Link } from 'react-router-dom';
 import logo from '../../assets/img/Logo.png'
-import Carrers from '../Page/Carresrs/Carrers';
-import Service from '../Page/Service/Service';
+
 
 function Navbar() {
     const navLinks = [
