@@ -1,8 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Blog.css'
 import sevice_img from '../../../assets/img/Header Image.png'
 
 const Blog = () => {
+
+  useEffect(()=>{
+    
+    window.scrollTo(0,0)
+
+  },[])
+
+  
   return (
     <div className='bg_color padding'>
       <div className='container '>

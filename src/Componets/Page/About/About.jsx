@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Abaout.css'
 import img from '../../../assets/img/Image (4).png'
 import Card from '../../Card/Card'
 
 const About = () => {
+    useEffect(()=>{
+    
+        window.scrollTo(0,0)
+    
+      },[])
+    
+
     const data = [
         {
             id: 1,

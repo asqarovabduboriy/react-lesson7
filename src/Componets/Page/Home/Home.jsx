@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect}from 'react'
 import "./Home.css"
 import home_logo from '../../../assets/img/Logo (3).png'
 import home_logo1 from '../../../assets/img/Logo (2).png'
@@ -9,6 +9,13 @@ import Card from '../../Card/Card'
 
 
 const Home = () => {
+
+  useEffect(()=>{
+    
+    window.scrollTo(0,0)
+
+  },[])
+
   return (
     <>
       <div className='bg_color'>

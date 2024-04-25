@@ -1,10 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./Carrers.css"
 import Card from '../../Card/Card'
 import sevice_img from '../../../assets/img/Image (6).png'
 
 
 const Carrers = () => {
+
+  useEffect(()=>{
+    
+    window.scrollTo(0,0)
+
+  },[])
+
+
     return (
        <>
       <div className='container '>

@@ -1,9 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./Service.css"
 import sevice_img from '../../../assets/img/Image (5).png'
 import Card from '../../Card/Card'
 
 const Service = (props) => {
+
+  useEffect(()=>{
+    
+    window.scrollTo(0,0)
+
+  },[])
+
+
   return (
     <>
       <div className='container '>
