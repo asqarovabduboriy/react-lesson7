@@ -31,9 +31,9 @@ const Home = () => {
               <p className='home_p_text'>Worked with 100+ Companies</p>
 
               <div className='logo_container'>
-                <img src={home_logo} alt="" />
-                <img src={home_logo1} alt="" />
-                <img src={home_logo2} alt="" />
+                <div><img src={home_logo} alt="" /></div>
+                <div><img src={home_logo1} alt="" /></div>
+                <div><img src={home_logo2} alt="" /></div>
               </div>
             </div>
             <div className='home_img_container'>

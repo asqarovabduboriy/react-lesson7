@@ -23,8 +23,8 @@ function App() {
                 <Route path='/blog' element={<Blog />} />
                 <Route path='/carres' element={<Carrers />} />
                 <Route path='/servic' element={<Service />} />
-                <Route path='/product/:id' element={<Singlerout/>}/>
                 <Route path='/product' element={<Product/>} />
+                <Route path='/product/:id' element={<Singlerout/>}/>
             </Routes>
      <Footer/>
     </>

@@ -50,8 +50,8 @@ const Singlerout = () => {
                             {loader ? <p>Loading...</p> : <b>count {product?.stock}</b>}
                         </div>
                         {loader ? <p>Loading...</p> : <span>${product?.price}</span>}
-                        <div style={{marginTop: '25px', textAlign:'center'}}>
-                            {loader ? <p>Loading...</p> : <p className='p_text'>{product?.description}</p>}
+                        <div className='p_text'>
+                            {loader ? <p>Loading...</p> : <p>{product?.description}</p>}
                         </div>
                         <div className='line'></div>
 

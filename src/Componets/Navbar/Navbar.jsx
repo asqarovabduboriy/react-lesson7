@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
-import { Link,NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/img/Logo.png'
 
 
@@ -26,22 +26,31 @@ function Navbar() {
 
             <header className='window_header'>
                 <div className='container'>
-                <div className=' wrapper'>
-                    <div className='logo'>
-                    <NavLink to={'/'}><img src={logo} alt="" /></NavLink>
-                    </div>
-                    <nav>
-                        <ul className='nav_ul_link'>
-                            {navlink}
+                    <div className=' wrapper'>
+                        <div className='logo'>
+                            <NavLink to={'/'}><img src={logo} alt="" /></NavLink>
+                        </div>
+                        <nav>
+                            <ul className='nav_ul_link'>
+                                {navlink}
 
-                            <li><button>Clone project</button></li>
-                        </ul>
-                    </nav>
+                                <li><button>Clone project</button></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-            </div>
             </header>
 
-           
+            <header className="header mobilni">
+                <NavLink to={'/'}><img src={logo} alt="" /></NavLink>
+                <input className="menu-btn" type="checkbox" id="menu-btn" />
+                <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
+                <ul className="menu">
+                    {navlink}
+                </ul>
+            </header>
+
+
         </>
     );
 }

@@ -75,3 +75,51 @@ margin-top: 16px;
     margin-top: 64px;
     padding-bottom: 96px;
 }
+
+@media (max-width: 917px) {
+    .card_title{
+        text-align: center;
+    }
+
+    .card_title h1{
+        font-size:35px;
+        text-align: center;
+    }
+
+    .card_flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .card_cards{
+       width: 350px; 
+    }
+
+    .card_img img{
+    width: 350px;
+    }
+
+    .card{
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .card_cards{
+       width: 300px; 
+    }
+
+    .card_img img{
+    width: 300px;
+    }
+
+    .card{
+        width: 300px;
+    }
+
+}

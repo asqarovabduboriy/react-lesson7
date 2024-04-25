@@ -149,3 +149,36 @@
     align-items: center;
     gap: 32px;
 }
+
+@media (max-width: 917px) {  
+      .flex_element_footer{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .logo_footer_text_content{
+        margin-bottom: 30px;
+      }
+
+      .input_container{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: center;
+
+      }
+
+      .input_container input{
+        text-align: center;
+      }
+
+      .footer_input button{
+        margin: 0 auto;
+      }
+
+      .police{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+}

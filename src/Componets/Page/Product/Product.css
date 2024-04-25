@@ -183,3 +183,48 @@
         text-align: center;
     }
 
+
+    @media (max-width: 400px) {
+        .product_card{
+            position: relative;
+        }
+
+        .icon_container_product{
+            position: absolute;
+            top: 25px;
+            left: 300px;
+        }
+
+        .card_badge{
+            width: 30px;
+            height: 30px;
+            left: 310px;
+            top: 10px;
+        }
+      }
+
+       @media (max-width: 390px) {
+        .product_card{
+            position: relative;
+        }
+
+        .icon_container_product{
+            position: absolute;
+            top: 25px;
+            left: 300px;
+        }
+
+        .icon_container_product button{
+               width: 30px;
+               height: 30px;
+               font-size: 15px;
+        }
+
+        .card_badge{
+            width: 30px;
+            height: 30px;
+            left: 300px;
+            top: 10px;
+        }
+      }
+
