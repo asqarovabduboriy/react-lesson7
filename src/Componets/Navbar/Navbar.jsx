@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
-import {  Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 import logo from '../../assets/img/Logo.png'
 
 
@@ -9,8 +9,9 @@ function Navbar() {
         { title: 'Home', path: '/' },
         { title: 'About Us', path: '/about' },
         { title: 'Blog', path: '/blog' },
-        { title: 'cAREERS', path: '/carres' },
-        { title: 'Service', path: '/servic' }
+        { title: 'CAREERS', path: '/carres' },
+        { title: 'Service', path: '/servic' },
+        { title: 'Product', path: '/product' }
 
     ];
 
@@ -21,21 +22,27 @@ function Navbar() {
     ))
 
     return (
-        <header><div className='container'>
-            <div className=' wrapper'>
-                <div className='logo'>
-                    <img src={logo} alt="" />
-                </div>
-                <nav>
-                    <ul className='nav_ul_link'>
-                        {navlink}
+        <>
 
-                        <li><button>Clone project</button></li>
-                    </ul>
-                </nav>
+            <header className='window_header'>
+                <div className='container'>
+                <div className=' wrapper'>
+                    <div className='logo'>
+                    <NavLink to={'/'}><img src={logo} alt="" /></NavLink>
+                    </div>
+                    <nav>
+                        <ul className='nav_ul_link'>
+                            {navlink}
+
+                            <li><button>Clone project</button></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
-        </header>
+            </header>
+
+           
+        </>
     );
 }
 
